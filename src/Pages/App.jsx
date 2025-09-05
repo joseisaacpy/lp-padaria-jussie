@@ -1,13 +1,14 @@
+// Importa os componentes
+import Header from "../Components/Header";
+
 function App() {
   return (
     <>
-      <div>
-        <h1 className="text-primary">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-          officia, sed assumenda quo pariatur temporibus consequatur. Cupiditate
-          officia iure dolorum perferendis vero atque earum? Voluptas saepe ut
-          eum at necessitatibus.
-        </h1>
+      {/* Container principal */}
+      <div className="bg-background min-w-screen min-h-screen">
+        {/* Header */}
+        <Header />
+        {/* Hero */}
       </div>
     </>
   );
