@@ -1,2 +1,10 @@
+@import 'tailwindcss';
 
-@import 'tailwindcss'
+
+@theme{
+     --color-primary: #D2691E; /* Marrom pão */
+    --color-secondary: #F5DEB3; /* Creme */
+    --color-accent: #FF6347; /* Vermelho suave */
+    --color-background: #FFF8F0; /* Fundo claro */
+    --color-text: #4B3A2F; /* Marrom escuro para texto */
+}
