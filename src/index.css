@@ -1,5 +1,9 @@
 @import 'tailwindcss';
 
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url(./assets/Fonts/Poppins-Regular.ttf);
+}
 
 @theme{
      --color-primary: #D2691E; /* Marrom pão */
@@ -7,4 +11,10 @@
     --color-accent: #FF6347; /* Vermelho suave */
     --color-background: #FFF8F0; /* Fundo claro */
     --color-text: #4B3A2F; /* Marrom escuro para texto */
+    --font-poppins: "Poppins", sans-serif;
+}
+
+body {
+    font-family: var(--font-poppins);
+    background-color: var(--color-background);
 }
