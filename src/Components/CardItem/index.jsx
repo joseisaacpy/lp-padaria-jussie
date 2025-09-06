@@ -31,7 +31,7 @@ const CardItem = ({ urlImagem, preco, nome, descricao }) => {
           <button className="w-full">
             <a
               className="flex items-center justify-center border-1 border-primary rounded-md p-2 hover:text-white hover:bg-primary transition-all duration-300"
-              href={`https://wa.me/5555869542191?text=Oi%2C%20quero%20saber%20mais%20sobre%0A${nome}`}
+              href={`https://wa.me/55869542191?text=Oi%2C%20quero%20saber%20mais%20sobre%0A${nome}`}
             >
               <FaWhatsapp className="mr-2" /> Encomendar
             </a>
