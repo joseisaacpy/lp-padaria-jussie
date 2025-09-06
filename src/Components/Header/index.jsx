@@ -11,11 +11,11 @@ const Header = () => {
           </h1>
         </a>
         {/* Links */}
-        <ul className="flex gap-4">
+        <ul className="flex gap-6">
           <li>
             <a
               href="#"
-              className="font-bold hover:text-black transition-all duration-300"
+              className=" hover:text-black transition-all duration-300"
             >
               Link
             </a>
@@ -23,7 +23,7 @@ const Header = () => {
           <li>
             <a
               href="#"
-              className="font-bold hover:text-black transition-all duration-300"
+              className=" hover:text-black transition-all duration-300"
             >
               Link
             </a>
@@ -31,7 +31,7 @@ const Header = () => {
           <li>
             <a
               href="#"
-              className="font-bold hover:text-black transition-all duration-300"
+              className=" hover:text-black transition-all duration-300"
             >
               Link
             </a>
@@ -39,7 +39,7 @@ const Header = () => {
           <li>
             <a
               href="#"
-              className="font-bold hover:text-black transition-all duration-300"
+              className=" hover:text-black transition-all duration-300"
             >
               Link
             </a>

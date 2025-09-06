@@ -6,12 +6,16 @@ import Hero from "../Components/Hero";
 function App() {
   return (
     <>
-      {/* Header */}
-      <Header />
-      {/* Hero */}
-      <Hero />
-      {/* Footer */}
-      <Footer />
+      <div className="flex flex-col min-h-screen">
+        {/* Header */}
+        <Header />
+        <div className="flex flex-1">
+          {/* Hero */}
+          <Hero />
+        </div>
+        {/* Footer */}
+        <Footer />
+      </div>
     </>
   );
 }
