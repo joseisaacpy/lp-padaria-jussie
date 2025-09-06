@@ -1,7 +1,8 @@
 // Importa os componentes
 import Header from "../Components/Header";
-import Footer from "../Components/Footer";
 import Hero from "../Components/Hero";
+import Cardapio from "../Components/Cardapio";
+import Footer from "../Components/Footer";
 
 function App() {
   return (
@@ -9,9 +10,11 @@ function App() {
       <div className="flex flex-col min-h-screen">
         {/* Header */}
         <Header />
-        <div className="flex flex-1">
+        <div className="flex flex-col flex-1">
           {/* Hero */}
           <Hero />
+          {/* Cardápio */}
+          <Cardapio />
         </div>
         {/* Footer */}
         <Footer />
