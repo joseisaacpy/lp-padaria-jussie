@@ -26,7 +26,7 @@ const Hero = () => {
             src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&h=400&fit=crop"
             alt="Pães"
           />
-          <div className="flex flex-col text-center absolute bottom-0 left-[-20px] bg-white shadow-md rounded-md px-4 py-4 text-sm">
+          <div className="flex flex-col text-left absolute bottom-0 left-[-20px] bg-white shadow-md rounded-md px-4 py-4 text-sm hover:scale-110 transition-all duration-300">
             <p className="text-primary font-black">Feito com amor</p>
             <p className="text-accent">Desde 2000</p>
           </div>
