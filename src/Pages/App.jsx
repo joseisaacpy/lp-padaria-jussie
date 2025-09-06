@@ -1,3 +1,6 @@
+// Importa Element do react-scrool
+import { Element } from "react-scroll";
+
 // Importa os componentes
 import Header from "../Components/Header";
 import Hero from "../Components/Hero";
@@ -12,9 +15,13 @@ function App() {
         <Header />
         <div className="flex flex-col flex-1">
           {/* Hero */}
-          <Hero />
+          <Element name="hero">
+            <Hero />
+          </Element>
           {/* Cardápio */}
-          <Cardapio />
+          <Element name="cardapio">
+            <Cardapio />
+          </Element>
         </div>
         {/* Footer */}
         <Footer />

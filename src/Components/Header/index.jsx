@@ -1,3 +1,6 @@
+// Importa o Link do react-scroll
+import { Link } from "react-scroll";
+
 const Header = () => {
   return (
     // Header
@@ -19,36 +22,42 @@ const Header = () => {
         {/* Menu Desktop */}
         <ul className="hidden md:flex gap-6">
           <li>
-            <a
-              href="#"
+            <Link
+              to="hero"
+              smooth={true}
+              duration={500}
               className="text-sm hover:text-black transition-all duration-300"
             >
               Início
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#"
-              className="text-sm hover:text-black transition-all duration-300"
+            <Link
+              to="cardapio"
+              smooth={true}
+              duration={500}
+              className="text-sm hover:text-black transition-all duration-300 cursor-pointer"
             >
               Cardápio
-            </a>
+            </Link>
           </li>
           <li>
             <a
               href="#"
-              className="text-sm hover:text-black transition-all duration-300"
+              className="text-sm hover:text-black transition-all duration-300 cursor-pointer"
             >
               Encomendas
             </a>
           </li>
           <li>
-            <a
-              href="#"
-              className="text-sm hover:text-black transition-all duration-300"
+            <Link
+              to="contato"
+              smooth={true}
+              duration={500}
+              className="text-sm hover:text-black transition-all duration-300 cursor-pointer"
             >
               Contato
-            </a>
+            </Link>
           </li>
         </ul>
         {/* Menu Mobile */}
