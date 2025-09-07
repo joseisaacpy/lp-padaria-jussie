@@ -6,7 +6,11 @@ import {
   FaMapMarkerAlt,
   FaPhoneAlt,
   FaClock,
+  FaArrowUp,
 } from "react-icons/fa";
+
+// Importa Link do react-scroll
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
@@ -61,6 +65,21 @@ const Footer = () => {
               &lt;José Isaac/&gt;
             </a>
           </p>
+        </div>
+        <div className="relative">
+          <button
+            title="Voltar para o topo"
+            className="absolute bottom-2 right-2 p-2 bg-background rounded-full cursor-pointer animate-pulse"
+          >
+            <Link
+              to="header"
+              smooth={true}
+              duration={1000}
+              className="text-primary "
+            >
+              <FaArrowUp />
+            </Link>
+          </button>
         </div>
       </footer>
     </>

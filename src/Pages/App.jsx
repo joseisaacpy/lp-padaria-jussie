@@ -12,7 +12,9 @@ function App() {
     <>
       <div className="flex flex-col min-h-screen">
         {/* Header */}
-        <Header />
+        <Element name="header">
+          <Header />
+        </Element>
         <div className="flex flex-col flex-1">
           {/* Hero */}
           <Element name="hero">
