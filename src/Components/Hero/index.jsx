@@ -1,3 +1,6 @@
+// Importa o Link do react-scroll
+import { Link } from "react-scroll";
+
 const Hero = () => {
   return (
     // Section
@@ -16,7 +19,9 @@ const Hero = () => {
           </p>
           {/* Button */}
           <button className="w-[150px] mx-auto md:m-0 text-sm bg-primary rounded-md px-5 py-2 text-white cursor-pointer hover:bg-accent hover:scale-95 transition-all duration-300">
-            Ver Cardápio
+            <Link to="cardapio" smooth={true} duration={500}>
+              Ver Cardápio
+            </Link>
           </button>
         </div>
         {/* Image */}
