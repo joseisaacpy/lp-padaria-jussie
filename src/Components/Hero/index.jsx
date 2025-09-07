@@ -24,7 +24,7 @@ const Hero = () => {
             </Link>
           </button>
         </div>
-        {/* Image */}
+        {/* Imagem */}
         <div className="relative">
           <img
             className="w-full md:w-[90%] rounded-md shadow-2xl flex-1 hover:scale-95 transition-all duration-300"
