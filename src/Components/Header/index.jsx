@@ -26,7 +26,7 @@ const Header = () => {
               to="hero"
               smooth={true}
               duration={500}
-              className="text-sm hover:text-black transition-all duration-300"
+              className="text-sm hover:text-black transition-all duration-300 cursor-pointer"
             >
               Início
             </Link>
@@ -40,14 +40,6 @@ const Header = () => {
             >
               Cardápio
             </Link>
-          </li>
-          <li>
-            <a
-              href="#"
-              className="text-sm hover:text-black transition-all duration-300 cursor-pointer"
-            >
-              Encomendas
-            </a>
           </li>
           <li>
             <Link

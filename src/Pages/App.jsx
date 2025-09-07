@@ -24,7 +24,9 @@ function App() {
           </Element>
         </div>
         {/* Footer */}
-        <Footer />
+        <Element name="contato">
+          <Footer />
+        </Element>
       </div>
     </>
   );
