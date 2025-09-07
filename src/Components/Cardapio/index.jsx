@@ -16,7 +16,9 @@ const Cardapio = () => {
       </div>
       {/* Seção de pães */}
       <div className="">
-        <h2 className="text-2xl text-primary text-center font-bold mb-4">Pães</h2>
+        <h2 className="text-2xl text-primary text-center font-bold mb-4">
+          Pães
+        </h2>
         {/* Grid de pães */}
         <div className="grid grid-cols-1 md:grid-cols-3 items-center justify-items-center gap-6">
           {/* Cards */}
@@ -49,9 +51,11 @@ const Cardapio = () => {
 
       {/* Seção de bolos */}
       <div>
-        <h2 className="text-2xl text-primary text-center font-bold mb-4">Bolos</h2>
+        <h2 className="text-2xl text-primary text-center font-bold mb-4">
+          Bolos
+        </h2>
         {/* Grid de bolos */}
-        <div className="grid grid-cols-1 md:grid-cols-3 items-center justify-items-center mx-auto  gap-2">
+        <div className="grid grid-cols-1 md:grid-cols-3 items-center justify-items-center gap-2">
           {/* Cards */}
           <CardItem
             urlImagem={
@@ -81,9 +85,11 @@ const Cardapio = () => {
       </div>
       {/* Seção de doces */}
       <div>
-        <h2 className="text-2xl text-primary text-center font-bold mb-4">Doces</h2>
+        <h2 className="text-2xl text-primary text-center font-bold mb-4">
+          Doces
+        </h2>
         {/* Grid de doces */}
-        <div className="grid grid-cols-1 md:grid-cols-3 items-center justify-items-center mx-auto  gap-2">
+        <div className="grid grid-cols-1 md:grid-cols-3 items-center justify-items-center  gap-2">
           {/* Cards */}
           <CardItem
             urlImagem={

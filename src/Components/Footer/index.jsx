@@ -11,7 +11,7 @@ import {
 const Footer = () => {
   return (
     <>
-      <footer className="w-screen bg-primary text-white">
+      <footer className="w-full bg-primary text-white">
         <div className="py-4 px-2 grid grid-cols-1 gap-6 md:gap-0 md:grid-cols-3 items-center justify-items-start md:justify-items-center">
           {/* Local */}
           <div className="flex flex-col ">

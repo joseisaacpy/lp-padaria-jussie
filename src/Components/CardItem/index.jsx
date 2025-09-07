@@ -12,7 +12,7 @@ const CardItem = ({ urlImagem, preco, nome, descricao }) => {
         {/* Imagem */}
         <div>
           <img
-            className="w-full relative rounded-t-md"
+            className="w-full h-auto object-cover relative rounded-t-md"
             src={urlImagem}
             alt={`Imagem de ${nome}`}
           />

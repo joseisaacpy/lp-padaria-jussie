@@ -6,7 +6,7 @@ const Header = () => {
     // Header
     <header>
       {/* Navigation */}
-      <nav className="min-w-screen h-[70px] flex justify-around items-center bg-primary text-white">
+      <nav className="w-full h-[70px] flex justify-around items-center bg-primary text-white">
         {/* Perfil */}
         <div className="flex items-center justify-center gap-2">
           <div>
