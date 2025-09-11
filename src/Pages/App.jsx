@@ -17,6 +17,9 @@ function App() {
   // Estado para controlar o carregamento
   const [loading, setLoading] = useState(true);
 
+  // Estado para controlar o status do projeto
+  const [isBlock, setIsBlock] = useState(true);
+
   // useEffect para simular carregamento
   useEffect(() => {
     const visited = localStorage.getItem("visited", true);
@@ -36,7 +39,13 @@ function App() {
 
   // Se estiver carregando, mostra o Loader
   if (loading) {
-    return <Loader />;
+    return <Loader loaderMessage={"carregando..."} />;
+  }
+  // Se o projeto estiver bloqueado, mostra apenas o loader com uma menssagem
+  if (isBlock) {
+    return (
+      <Loader loaderMessage={"Consulte o desenvolvedor para saber mais..."} />
+    );
   }
 
   // Se não estiver carregando, mostra o conteúdo principal
