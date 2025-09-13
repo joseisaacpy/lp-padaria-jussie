@@ -6,7 +6,7 @@ const CardItem = ({ urlImagem, preco, nome, descricao }) => {
     <>
       {/* Card */}
       <div
-        className="relative w-full md:w-[80%] flex flex-col gap-4 rounded-md text-primary hover:shadow-2xl hover:shadow-black/60
+        className="relative w-full md:w-[80%] flex flex-col gap-4 rounded-md border border-primary/60 text-primary hover:shadow-2xl hover:shadow-black/60
  transition-all duration-300"
       >
         {/* Imagem */}

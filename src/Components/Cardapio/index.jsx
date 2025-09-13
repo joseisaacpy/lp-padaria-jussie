@@ -16,7 +16,7 @@ const Cardapio = () => {
       </div>
       {/* Seção de pães */}
       <div className="">
-        <h2 className="text-2xl text-primary text-center font-bold mb-4">
+        <h2 className="text-2xl text-primary text-center font-bold my-4">
           Pães
         </h2>
         {/* Grid de pães */}
@@ -51,7 +51,7 @@ const Cardapio = () => {
 
       {/* Seção de bolos */}
       <div>
-        <h2 className="text-2xl text-primary text-center font-bold mb-4">
+        <h2 className="text-2xl text-primary text-center font-bold my-4">
           Bolos
         </h2>
         {/* Grid de bolos */}
@@ -85,7 +85,7 @@ const Cardapio = () => {
       </div>
       {/* Seção de doces */}
       <div>
-        <h2 className="text-2xl text-primary text-center font-bold mb-4">
+        <h2 className="text-2xl text-primary text-center font-bold my-4">
           Doces
         </h2>
         {/* Grid de doces */}
