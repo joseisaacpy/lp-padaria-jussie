@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 const Hero = () => {
   return (
     // Section
-    <section className="flex items-center justify-center md:max-w-[90dvw] mx-auto">
+    <section className="pt-[75px] flex items-center justify-center md:max-w-[90dvw] mx-auto">
       {/* Div Container */}
       <div className="flex flex-col md:flex-row p-6 items-center justify-center gap-4">
         {/* Textos */}
