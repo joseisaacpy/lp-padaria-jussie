@@ -3,7 +3,7 @@ import CardItem from "../CardItem";
 
 const Cardapio = () => {
   return (
-    <section className="bg-white p-2">
+    <section className="bg-yellow-50 p-2">
       {/* Texto */}
       <div className="m-12 flex flex-col gap-4 items-center justify-center">
         <h1 className="text-2xl md:text-3xl font-bold text-primary">
